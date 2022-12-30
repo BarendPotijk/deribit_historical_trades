@@ -19,9 +19,9 @@
 
 ## Project description
 <br />
-<img src="Images/deribit_input.png" alt="Logo" width="200" height="130">
+<img src="Images/deribit_input.png" alt="Logo" width="300" height="200">
 <br />
 <div align="center">
-<img src="Images/dataframe.png" alt="Logo" width="600" height="300">
+<img src="Images/dataframe.png" alt="Logo" width="800" height="300">
 <br />
   
