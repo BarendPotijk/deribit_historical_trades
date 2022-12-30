@@ -33,11 +33,16 @@ These option trades are transformed in a workable pandas dataframe:
 <div align="center">
 <img src="Images/dataframe.png">
 <br />
- <br />
+<br />
 The dataframe is use to display implied volatility smiles:
+<br />
+<br />
 <img src="Images/implied_volatility_smile.png">
 <br />
 <br />
 And volatility surface:
+<br />
+<br />
 <img src="Images/implied_volatility_surface.png">
 <br /> 
+<br />
