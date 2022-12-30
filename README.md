@@ -18,6 +18,7 @@
 </div>
 
 ## Project description
+The visualize_crypto_options repository visualizes cryptocurrency (BTC, ETH, SOL, USDC) options traded on Deribit (see https://www.deribit.com/). 
 <br />
 <img src="Images/deribit_input.png" alt="Logo">
 <br />
