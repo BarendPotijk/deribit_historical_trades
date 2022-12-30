@@ -36,12 +36,16 @@ These option trades are transformed in a workable pandas dataframe:
 The dataframe is use to display implied volatility smiles:
 <br />
 <br />
-<img src="Images/implied_volatility_smile.png">
+<a href="https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_smile.html">
+  <img src="Images/implied_volatility_smile.png">
+</a>
 <br />
 <br />
 And volatility surface:
 <br />
 <br />
-<img src="Images/implied_volatility_surface.png">
+<a href="https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_surface.html">
+  <img src="Images/implied_volatility_surface.png">
+</a>
 <br /> 
 <br />
