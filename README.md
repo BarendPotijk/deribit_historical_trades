@@ -30,7 +30,6 @@ The Deribit API gets called asynchronously to collect all options trades of a sp
 <br />
 <br />
 These option trades are transformed in a workable pandas dataframe:
-<div align="center">
 <img src="Images/dataframe.png">
 <br />
 <br />
