@@ -19,4 +19,4 @@
 
 ## Project description
 
-[https://github.com/BarendPotijk/visualize_crypto_options/blob/main/Images/implied_volatility_surface.png](https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_surface.html)
+[!iv surface screenshot][https://github.com/BarendPotijk/visualize_crypto_options/blob/main/Images/implied_volatility_surface.png]](https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_surface.html)
