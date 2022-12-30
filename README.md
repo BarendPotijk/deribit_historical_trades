@@ -25,15 +25,19 @@ For further information and the documentations see https://docs.deribit.com/#pub
 ## Workings
 The Deribit API gets called asynchronously to collect all options trades of a specified `currency` ranging from `start_date` to `end_date`. Each command returns a maximum of 1000 option trades JSON structured like this (real example):
 <br />
+<br />
 <img src="Images/deribit_input.png">
+<br />
 <br />
 These option trades are transformed in a workable pandas dataframe:
 <div align="center">
 <img src="Images/dataframe.png">
 <br />
-and ultimately results in an implied volatility smile for a specific `date`:
+ <br />
+and ultimately results in an implied volatility smile for a specific `date` :
 <div align="center">
 <img src="Images/implied_volatility_smile.png">
+<br />
 <br />
 and volatility surface:
 <div align="center">
