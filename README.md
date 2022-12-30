@@ -20,4 +20,4 @@
 ## Project description
 <br />
 <div align="center">
-<img src="Images/dataframe.png" alt="Logo" width="900" height="600">
+<img src="Images/dataframe.png" alt="Logo" width="1000" height="500">
