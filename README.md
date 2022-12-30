@@ -19,7 +19,7 @@
 
 ## Project description
 <br />
-<img src="Images/deribit_input.png" alt="Logo" width="300" height="200">
+<img src="Images/deribit_input.png" alt="Logo">
 <br />
 <div align="center">
 <img src="Images/dataframe.png" alt="Logo">
