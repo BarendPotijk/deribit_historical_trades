@@ -25,8 +25,9 @@ For further information and the documentations see https://docs.deribit.com/#pub
 ## Workings
 The Deribit API gets called asynchronously to collect all options trades of a specified `currency` ranging from `start_date` to `end_date`. Each command returns a maximum of 1000 option trades JSON structured like this (real example):
 <br />
-<img src="Images/deribit_input.png" alt="Logo">
+<img src="Images/deribit_input.png">
 <br />
+These option trades are transformed in a workable pandas dataframe:
 <div align="center">
-<img src="Images/dataframe.png" alt="Logo">
+<img src="Images/dataframe.png">
 <br />
