@@ -8,12 +8,12 @@
 <h3 align="center">project_title</h3>
 
   <p align="center">
-    project_description
+    Visualize Cryptocurrency option trades using Deribit API v2
     <br />
     <a href="https://github.com/BarendPotijk/visualize_crypto_options/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BarendPotijk/visualize_crypto_options/EXAMPLES/">View examples </a>
+    <a href="https://github.com/BarendPotijk/visualize_crypto_options/tree/main/EXAMPLES">View examples </a>
   </p>
 </div>
 
