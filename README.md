@@ -21,5 +21,5 @@
 <br />
 <div align="center">
   <a href="(https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_surface.html)">
-    <img src="Images/implied_volatility_surface.png" alt="Logo" width="400" height="400">
+    <img src="Images/implied_volatility_surface.png" alt="Logo" width="600" height="600">
   </a>
