@@ -18,5 +18,8 @@
 </div>
 
 ## Project description
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<br />
+<div align="center">
+  <a href="(https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_surface.html)">
+    <img src="Images/implied_volatility_surface.png" alt="Logo" width="1000" height="1000">
+  </a>
