@@ -19,4 +19,4 @@
 
 ## Project description
 
-[![iv surface screenshot][surface-implied_volatility_surface]](https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_surface.html)
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
