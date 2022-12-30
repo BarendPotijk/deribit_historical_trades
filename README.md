@@ -18,7 +18,7 @@
 </div>
 
 ## Project description
-The visualize_crypto_options repository visualizes cryptocurrency (BTC, ETH, SOL, USDC) options traded on Deribit (see https://www.deribit.com/). 
+The visualize_crypto_options repository visualizes cryptocurrency (BTC, ETH, SOL, USDC) options traded on the cryptocurrency derivative platform Deribit (https://www.deribit.com). All crypto option trades of the last 5 days are publicly available in the Deribit API v2.1.1 under '/public/get_last_trades_by_currency_and_time'. For the documentations and check the website https://docs.deribit.com/#public-get_last_trades_by_currency_and_time. 
 <br />
 <img src="Images/deribit_input.png" alt="Logo">
 <br />
