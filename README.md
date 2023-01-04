@@ -33,7 +33,7 @@ These option trades are transformed in a workable pandas dataframe:
 <img src="Images/dataframe.png">
 <br />
 <br />
-The dataframe is use to display implied volatility smiles:
+The dataframe is used to display implied volatility smiles:
 <br />
 <br />
 <a href="https://github.com/BarendPotijk/visualize_crypto_options/blob/main/EXAMPLES/iv_smile.html">
