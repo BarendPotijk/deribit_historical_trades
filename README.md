@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <br />
 <div align="center">
-  <a href="https://github.com/BarendPotijk/visualize_crypto_options/">
+  <a href="https://github.com/BarendPotijk/Deribit_historical_option_trades/">
     <img src="deribit.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -10,10 +10,10 @@
   <p align="center">
     Gather Cryptocurrency option trades using Deribit API v2
     <br />
-    <a href="https://github.com/BarendPotijk/visualize_crypto_options/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/BarendPotijk/Deribit_historical_option_trades/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BarendPotijk/visualize_crypto_options/tree/main/EXAMPLES">View examples </a>
+    <a href="https://github.com/BarendPotijk/Deribit_historical_option_trades/tree/main/DATA">Download csv </a>
   </p>
 </div>
 
