@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/BarendPotijk/visualize_crypto_options/">
-    <img src="Images/deribit.png" alt="Logo" width="80" height="80">
+    <img src="deribit.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Gather historical Crypto Option trades</h3>
