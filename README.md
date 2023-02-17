@@ -25,19 +25,21 @@ For further information and the documentations see https://docs.deribit.com/#pub
 ## Getting Started
 To use this script, you will need to have Python 3 and the following libraries installed:
 
+Markup :
 *json
 *requests
 *pandas
 *datetime
 
 ## Running the Script
+Markup :
 i. Open the script in your preferred Python editor.
 ii. Ensure that the required libraries are installed.
 iii. Set the query parameters for the API endpoint in the params dictionary.
 iv. Run the script.
 
 The script will make requests to the API endpoint and page through the results until all data has been retrieved. The option trade data will be processed into a Pandas DataFrame with the following columns:
-
+Markup :
 *date_time: the timestamp of the trade /newline
 *instrument_name: the name of the option instrument
 *option_price: the price of the option in USD
