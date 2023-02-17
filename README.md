@@ -17,12 +17,12 @@
   </p>
 </div>
 
-## Project description
+## Project description ##
 The Deribit_historical_option_trades repository gathers cryptocurrency (BTC, ETH, SOL, USDC) options traded on the cryptocurrency derivative platform Deribit (https://www.deribit.com). 
 All crypto option trades since the start of the platform are publicly available in the Deribit API v2.1.1 under 'https://history.deribit.com/api/v2/public/get_last_trades_by_currency' using REST requests. 
 For further information and the documentations see https://docs.deribit.com/#public-get_last_trades_by_currency_and_time. 
 
-## Getting Started
+## Getting Started ##
 To use this script, you will need to have Python 3 and the following libraries installed:
 
 Markup :
@@ -31,7 +31,7 @@ Markup :
   *pandas
   *datetime
 
-## Running the Script
+## Running the Script ##
 Markup :
   i. Open the script in your preferred Python editor.
   ii. Ensure that the required libraries are installed.
@@ -53,5 +53,5 @@ Markup :
   *moneyness: the moneyness of the option
   *time_to_maturity (days): the time-to-maturity of the option in days
 
-## Contributing
+## Contributing ##
 If you find a bug or would like to suggest an enhancement, please create an issue or submit a pull request.
