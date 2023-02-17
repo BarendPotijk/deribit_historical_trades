@@ -38,7 +38,7 @@ iv. Run the script.
 
 The script will make requests to the API endpoint and page through the results until all data has been retrieved. The option trade data will be processed into a Pandas DataFrame with the following columns:
 
-*date_time: the timestamp of the trade
+*date_time: the timestamp of the trade /newline
 *instrument_name: the name of the option instrument
 *option_price: the price of the option in USD
 *direction: the direction of the option trade (buy or sell)
@@ -51,5 +51,5 @@ The script will make requests to the API endpoint and page through the results u
 *moneyness: the moneyness of the option
 *time_to_maturity (days): the time-to-maturity of the option in days
 
-#Contributing
+## Contributing
 If you find a bug or would like to suggest an enhancement, please create an issue or submit a pull request.
