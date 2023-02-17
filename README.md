@@ -22,7 +22,7 @@ The Deribit_historical_option_trades repository gathers cryptocurrency (BTC, ETH
 All crypto option trades since the start of the platform are publicly available in the Deribit API v2.1.1 under 'https://history.deribit.com/api/v2/public/get_last_trades_by_currency' using REST requests. 
 For further information and the documentations see https://docs.deribit.com/#public-get_last_trades_by_currency_and_time. 
 
-##Getting Started
+## Getting Started
 To use this script, you will need to have Python 3 and the following libraries installed:
 
 *json
@@ -30,7 +30,7 @@ To use this script, you will need to have Python 3 and the following libraries i
 *pandas
 *datetime
 
-##Running the Script
+## Running the Script
 i. Open the script in your preferred Python editor.
 ii. Ensure that the required libraries are installed.
 iii. Set the query parameters for the API endpoint in the params dictionary.
