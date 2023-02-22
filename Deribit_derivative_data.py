@@ -11,7 +11,7 @@ def datetime_to_timestamp(datetime_obj):
 def timestamp_to_datetime(timestamp): 
     return dt.fromtimestamp(timestamp/1000)
 
-def derivative_data(currency, kind, start_date, end_date):
+def derivative_data(currency, start_date, end_date, kind = "any"):
     derivative_list = []
     params = {
         "currency": currency, 
