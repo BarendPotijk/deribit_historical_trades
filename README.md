@@ -13,7 +13,7 @@
     <a href="https://github.com/BarendPotijk/Deribit_historical_option_trades/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BarendPotijk/Deribit_historical_option_trades/tree/main/Jupyter%20Notebook.ipynb">See code </a>
+    <a href="https://github.com/BarendPotijk/Deribit_historical_option_trades/tree/main/Deribit_derivative_data.py">See code </a>
   </p>
 </div>
 
