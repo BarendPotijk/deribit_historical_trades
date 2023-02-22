@@ -19,7 +19,7 @@
 
 ## Project description ##
 The Deribit_historical_trades repository gathers cryptocurrency (BTC, ETH, SOL, USDC) derivatives traded on the cryptocurrency derivative platform Deribit. 
-All crypto option trades since the start of the platform are publicly available in the Deribit API v2.1.1 under 'https://history.deribit.com/api/v2/public/get_last_trades_by_currency' using REST requests. 
+All crypto derivatives trades since the start of the platform are publicly available in the Deribit API v2.1.1 under 'https://history.deribit.com/api/v2/public/get_last_trades_by_currency' using REST requests. 
 For further information and the documentations see https://docs.deribit.com/#public-get_last_trades_by_currency_and_time. 
 
 ## Getting Started ##
