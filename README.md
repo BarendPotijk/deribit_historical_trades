@@ -32,7 +32,7 @@ To use this script, you will need to have Python 3 and the following libraries i
 
 ## Running the Script ##
 
-  1. Open the script (<a href="https://github.com/BarendPotijk/Deribit_historical_trades/blob/main/Deribit_derivative_data.py">Deribit_derivative_data.py</a>)in your preferred Python editor.
+  1. Open the script (<a href="https://github.com/BarendPotijk/Deribit_historical_trades/blob/main/Deribit_derivative_data.py">Deribit_derivative_data.py</a>) in your preferred Python editor.
   2. Ensure that the required libraries are installed.
   3. Set the query parameters for the API endpoint in the function derivative_data(): <br /> 
      
