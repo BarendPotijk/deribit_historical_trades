@@ -37,7 +37,7 @@ To use this script, you will need to have Python 3 and the following libraries i
   3. Set the query parameters for the API endpoint in the function derivative_data(): <br /> 
      
      ```python
-     derivative_data(`currency`, `start_date`, `end_date`, `kind`, `count`) 
+     derivative_data(currency, start_date, end_date, kind, count) 
      ```
   4. Run the script.
 
