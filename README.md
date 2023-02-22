@@ -42,8 +42,8 @@ To use this script, you will need to have Python 3 and the following libraries i
 | Parameter | Required | Type | Enum | Description |
 | --- | --- | --- | --- | --- |
 | currency | true | string | `BTC`<br /> `ETH` <br /> `SOL` <br /> `USDC`| The currency symbol|
-| start_date | true | datetime object | | The earliest datetime object to return result for. When param is provided trades are returned from the earliest |
-| end_date | true | datetime object | | The most recent datetime object to return result for. Only one of params: start_date, end_date is truly required |
+| start_date | true | datetime object | | The earliest datetime object to return result for|
+| end_date | true | datetime object | | The most recent datetime object to return result for|
 | kind | false | string  | `future`<br /> `option` <br /> `future_combo` <br /> `option_combo` <br /> `combo` <br /> `any` | Instrument kind, `combo` for any combo or `any` for all. If not provided instruments of all kinds are considered |
 | count | false | integer | | Number of requested items, default - `10000` |
 
