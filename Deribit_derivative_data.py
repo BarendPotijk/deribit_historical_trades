@@ -36,7 +36,6 @@ def derivative_data(currency, kind, start_date, end_date):
             if params["start_timestamp"] >= datetime_to_timestamp(end_date):
                 break
                 
-    print(derivative_list)
     # Create a pandas dataframe from the derivative trade data
     derivative_data = pd.DataFrame(derivative_list)
     if len(derivative_data) == 0:
