@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[40]:
-
-
 import json
 import requests
 import pandas as pd
