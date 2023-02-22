@@ -18,7 +18,7 @@
 </div>
 
 ## Project description ##
-The Deribit_historical_trades repository gathers cryptocurrency (`BTC`, `ETH`, `SOL`, `USDC`) derivatives (`option`, `future`, `future_combo`, `option_combo`, `combo`, `any`) traded on the cryptocurrency derivative platform Deribit ranging from `start_datetime` to `end_datetime`. 
+The Deribit_historical_trades repository gathers cryptocurrency (BTC, ETH, SOL, USDC) derivatives traded on the cryptocurrency derivative platform Deribit. 
 All crypto option trades since the start of the platform are publicly available in the Deribit API v2.1.1 under 'https://history.deribit.com/api/v2/public/get_last_trades_by_currency' using REST requests. 
 For further information and the documentations see https://docs.deribit.com/#public-get_last_trades_by_currency_and_time. 
 
@@ -34,23 +34,18 @@ To use this script, you will need to have Python 3 and the following libraries i
 
   1. Open the script in your preferred Python editor.
   2. Ensure that the required libraries are installed.
-  3. Set the query parameters for the API endpoint in the params dictionary.
+  3. Set the query parameters for the API endpoint in the function derivative_data(`currency`, `start_date`, `end_date`, `kind`, `count`).
   4. Run the script.
 
-The script will make requests to the API endpoint and page through the results until all data has been retrieved. The option trade data will be processed into a Pandas DataFrame with the following columns:
-Markup :
-  * *date_time*: the timestamp of the trade /newline
-  * *instrument_name*: the name of the option instrument
-  * *option_price*: the price of the option in USD
-  * *direction*: the direction of the option trade (buy or sell)
-  * *option_type*: the type of the option (call or put)
-  * *amount*: the size of the option trade
-  * *maturity_date*: the maturity date of the option
-  * *strike_price*: the strike price of the option
-  * *index_price*: the price of the underlying asset (BTC, ETH, SOL, USDC)
-  * *iv*: the implied volatility of the option calculated by Deribit 
-  * *moneyness*: the moneyness of the option
-  * *time_to_maturity (days)*: the time-to-maturity of the option in days
+## Parameters ##
+
+| Parameter | Required | Type | Enum | Description |
+| --- | --- | --- | --- | --- |
+| currency | true | string | `BTC`<br /> `ETH` <br /> `SOL` <br /> `USDC`| The currency symbol|
+| kind | false | string  | `future`<br /> `option` <br /> `future_combo` <br /> `option_combo` <br /> `combo` <br /> `any` | Instrument kind, `combo` for any combo or `any` for all. If not provided instruments of all kinds are considered |
+| start_date | true | datetime object | | The earliest datetime object to return result for. When param is provided trades are returned from the earliest |
+| end_date | true | datetime object | | The most recent datetime object to return result for. Only one of params: start_date, end_date is truly required |
+| count | false | integer | | Number of requested items, default - `10000` |
 
 ## Contributing ##
-If you find a bug or would like to suggest an enhancement, please create an issue or submit a pull request.
+If you find a bug or would like to suggest an enhancement, please create an issue or submit a pull request. We welcome any contributions or feedback to make this script more useful and user-friendly for the cryptocurrency community.
